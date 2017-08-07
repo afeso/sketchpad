@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding 0;
+}
+
+#container {
+	overflow: hidden;
+	width: 500px;
+	height:500px;
+	border: 1px solid grey;
+	position: center;
+	border-style: ridge;
+	border-radius: 1px;
+	box-sizing: border-box;
+}
+.box {
+	
+}
+
+.boxed {
+	height : 16px;
+	width : 16px;
+	float : left;
+	display: block;
+}
+
+/* increase box  size  */
+.bigBox {
+	height : gridSize + px;
+	width :  gridSize + px;
+	float : left;
+	clear : right;
+}
+#header {
+	position: center;
+	color: #6A5;
+	
+}
+
+button {
+	clear : right;
+	margin : 4px 4px;
+	background-color : #AC5;
+	border-radius: 10px;
+	border-style: dotted;
+}
+
+button:hover {
+	background-color: #5CB;
+}
