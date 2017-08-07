@@ -1,9 +1,16 @@
 $(document).ready(function() {
 	
+	//create a variable that holds a div with the class of .box
+	var $div = ("<div class='box'></div>");
+	
+	//fill the #container box with 1000 divs with the .box class
+	for(var i = 0; i < 1000; i++) {
+		$('#container').append($div);
+	}
+	
 	//change the .box class to boxed
 	$('.box').addClass('boxed');
-	
-	
+		
 	// reset the grid when the button is clicked
 	$('button').on('click', function() {
 		$('.box').css("background-color", "white");
@@ -11,10 +18,8 @@ $(document).ready(function() {
 		//prompt user for a pixel size when the reset button is clicked
 		// and make it the value of the variable gridSize
 		gridSize = parseInt(prompt("Please Specify the size of Grids you want. Default is 16"));
-		  
-		
+		  	
 		//change the size of the grid according to the value of the gridSize variable
-		
 		if (gridSize > 16) {
 			$('.box').css({'height' :+ gridSize + 'px',
 				   'width' : + gridSize + 'px',
