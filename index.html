@@ -1,25 +1,31 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
 		<title>Sketchpad</title>
 		<link href = 'styles/style.css' rel = 'stylesheet' type = 'text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
 	</head>
 	<body>
-		
-		<div class='header'>
-				<h1>pixel sketch...</h1>
+		<div class="header">
+			<div class="title">pixel sketch...</div>
+		</div>
+
+		<div class="content">
+			<button class="resetGrid">Clear Pixels</button>
+
+			<div class="canvas">
+				<div class="container"></div>
 			</div>
-		<button type = 'button'>Reset Grid</button>
-		<div id='container'>
-			<div class='box'></div>
+
 		</div>
-		
-		<div class='bottom'>
+
+		<div class="footer">
 			<p>Hover your mouse over the box above to draw with random pixel colors</p>
-			<p>Click the reset button to clear your work and resize your grid.
-				Minimum size is 16. you can go higher but I honestly wouldn't recomend it.</p>
+			<p>Click the reset button to clear your work and resize your grid.</p>
+			<p>Minimum size is 16. you can go higher but I honestly wouldn't recomend it.</p>
 		</div>
-		<script src = "http://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+		<!-- <script src = "http://code.jquery.com/jquery-2.2.4.min.js"></script> -->
 		<script src = 'scripts/script.js'></script>
 	</body>
 </html>
