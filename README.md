@@ -8,5 +8,5 @@ making a sketchpadIsh web application with html, css and javascript(jQuery).
 # 11/Jul/2018
 * fixed a bug where the pixels were resized to default on draw.
 * Added the option to choose draw color.
-* Added the option to coose draw type.
+* Added the option to choose draw type.
 * fixed a bug where Firefox remembers the last Selected radio button.
