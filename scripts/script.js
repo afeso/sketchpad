@@ -66,7 +66,6 @@ canvasContainer.addEventListener('mouseover', event => {
 function draw(event) {
 	let element = event.target;
 	let elementClassList = Array.from(element.classList);
-	console.log(element);
 	// add color to only the pixels
 	if (elementClassList.includes('box')) {
 		// get the computed height of the current element.
