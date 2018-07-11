@@ -7,6 +7,7 @@ body, html {
 	padding: 0;
 	font-family: 'Gugi',cursive;
 	/* border: ""; */
+	border: none;
 }
 
 .title {
@@ -16,6 +17,7 @@ body, html {
 	/* height: 80px; */
 	margin: 15px auto;
 	font-size: 33px;
+	border: none;
 }
 
 .canvas {
@@ -24,6 +26,11 @@ body, html {
 	flex: 1;
 	align-items: center;
 	justify-content: center;
+	border: none;
+}
+
+#drawType {
+	font-style: italic;
 }
 
 .container {
@@ -36,7 +43,7 @@ body, html {
 	border-style: ridge;
 	border-radius: 1px;
 	/* box-sizing: border-box; */
-
+	border: none;
 }
 .box {
 
@@ -64,7 +71,7 @@ button {
 	min-height: 5vh;
 	/* align-items: center;
 	justify-content: center; */
-	margin-left: 30px;
+	margin-left: 3px;
 	border-radius: 10px;
 }
 
